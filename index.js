@@ -97,7 +97,7 @@ class Name {
 
 class Avatar {
   async element(element) {
-    element.setAttribute("src", "https://raw.githubusercontent.com/VAM7686/VAM7686.github.io/master/images/100820ProfilePicCropped.jpg");
+    element.setAttribute("src", "https://vam7686.github.io/assets/images/about/profilePicCrop.jpg");
   }
 }
 
@@ -110,8 +110,8 @@ class Profile {
 class Social {
   async element(element) {
     element.removeAttribute('style');
-    element.append("<a href=\"https://linkedin.com/in/vmhatre3/\"><img src=\"https://www.flaticon.com/svg/static/icons/svg/61/61109.svg\"></a>", { html: true })
-    element.append("<a href=\"https://github.com/VAM7686/\"><img src=\"https://www.flaticon.com/svg/static/icons/svg/37/37318.svg\"></a>", { html: true })
+    element.append("<a href=\"https://linkedin.com/in/vmhatre3/\"><img src=\"https://simpleicons.org/icons/linkedin.svg\"></a>", { html: true })
+    element.append("<a href=\"https://github.com/VAM7686/\"><img src=\"https://simpleicons.org/icons/github.svg\"></a>", { html: true })
     element.append("<a href=\"https://www.youtube.com/channel/UCefJss0nDy7FFK5MOf8D6OA/videos\"><img src=\"https://simpleicons.org/icons/youtube.svg\"></a>", { html: true })
   }
 }
